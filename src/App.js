@@ -4,7 +4,7 @@ import { useMovies } from "./useMovies";
 import { useLocalStorage } from "./useLocalStorage";
 import { useKeyState } from "./useKeyState";
 
-document.title = "usePopcorn";
+// document.title = "usePopcorn";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
